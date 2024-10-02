@@ -1,0 +1,26 @@
+body {
+    font-family: monospace;
+    color: #e3e3e3be;
+    background-color: #3f3d3d;
+    margin: 0px;
+    padding: 20px;
+}
+h1 {
+    color: #e3e3e3be;
+    border-bottom: 2px solid #e3e3e3;
+    padding-bottom: 10px;
+    text-align: center;
+}
+p {
+    line-height: 1.6;
+}
+
+.link{
+    color: #0066cc;
+}
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
