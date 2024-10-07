@@ -12,13 +12,18 @@ function getFortune() {
     alert(fortunes[randomIndex]);
 }
 
-
+var audio = new Audio('calm-and-peaceful-115481.mp3');
+let play = false;
 function playBackgroundMusic() {
-    var audio = new Audio('calm-and-peaceful-115481.mp3');
-    audio.loop = true;
-    audio.play();
+    play = !play;
+    if(play) {
+        audio.play();
+        
+    }
+    else{
+        audio.pause();
+        
+    }
+  
+   
 }
-
-window.onload = function() {
-    playBackgroundMusic();
-};
